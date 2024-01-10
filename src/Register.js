@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { Color, Palette } from "./style/color";
 
 export const Register = (props) => {
-  const [email, setEmail] = useState("");
+  const [number, setNum] = useState("");
   const [pass, setPass] = useState("");
   const [name, setName] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(email);
+    console.log(number);
   };
 
   return (
@@ -28,16 +28,25 @@ export const Register = (props) => {
         />
         <br />
 
-        <label htmlFor="email">Email</label>
+        <label htmlFor="number">Phone number</label>
         <input
-          value={email}
-          type="email"
-          placeholder="youremail@gmail.com"
-          id="email"
-          name="email"
+          value={number}
+          type="number"
+          placeholder="9876543210"
+          id="number"
+          name="number"
         />
         <br />
         <label htmlFor="password">Password</label>
+        <input
+          value={pass}
+          type="password"
+          placeholder="******"
+          id="password"
+          name="password"
+        />
+        <br />
+        <label htmlFor="password">Confirm Password</label>
         <input
           value={pass}
           type="password"

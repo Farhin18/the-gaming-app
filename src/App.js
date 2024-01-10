@@ -14,16 +14,16 @@ function App() {
   };
 
   return (
-    // <div className="App">
-    //   {currentForm === "login" ? (
-    //     <Login onFormSwitch={toggleForm} />
-    //   ) : (
-    //     <Register onFormSwitch={toggleForm} />
-    //   )}
-    // </div>
-    <div>
-      <Aviator />
+    <div className="App">
+      {currentForm === "login" ? (
+        <Login onFormSwitch={toggleForm} />
+      ) : (
+        <Register onFormSwitch={toggleForm} />
+      )}
     </div>
+    // <div>
+    //   <Aviator />
+    // </div>
   );
 }
 
