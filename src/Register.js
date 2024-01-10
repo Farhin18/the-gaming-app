@@ -37,6 +37,7 @@ export const Register = (props) => {
           name="number"
         />
         <br />
+        <button type="submit">OTP</button>
         <label htmlFor="password">Password</label>
         <input
           value={pass}

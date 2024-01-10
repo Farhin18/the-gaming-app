@@ -47,9 +47,7 @@ export const Login = (props) => {
           name="password"
         />
         <br />
-        <button type="submit" eventKey="1">
-          sign in
-        </button>
+        <button type="submit">sign in</button>
       </form>
     </div>
   );
