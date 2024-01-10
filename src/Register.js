@@ -28,7 +28,7 @@ export const Register = (props) => {
         />
         <br />
 
-        <label htmlFor="email">email</label>
+        <label htmlFor="email">Email</label>
         <input
           value={email}
           type="email"
@@ -37,7 +37,7 @@ export const Register = (props) => {
           name="email"
         />
         <br />
-        <label htmlFor="password">password</label>
+        <label htmlFor="password">Password</label>
         <input
           value={pass}
           type="password"
