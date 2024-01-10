@@ -38,15 +38,7 @@ export const Login = (props) => {
           name="password"
         />
         <br />
-        <label htmlFor="password">Confirm Password</label>
-        <input
-          value={pass}
-          type="password"
-          placeholder="******"
-          id="password"
-          name="password"
-        />
-        <br />
+
         <button type="submit">sign in</button>
       </form>
     </div>
