@@ -62,7 +62,7 @@ export const Register = (props) => {
         <br />
         <button type="submit">sign up</button> */}
         <a href="/otp">
-          <button type="submit">sign up</button>
+          <button type="submit">Get OTP</button>
         </a>
       </form>
     </div>
