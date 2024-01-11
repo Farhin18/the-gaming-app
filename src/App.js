@@ -4,7 +4,7 @@ import "./1App.css";
 import { Login } from "./Login";
 import { Register } from "./Register";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Aviator from "./Screen/Aviator";
+import Aviator from "./Aviator";
 
 function App() {
   const [currentForm, setCurrentForm] = useState("login");
@@ -14,16 +14,16 @@ function App() {
   };
 
   return (
-    <div className="App">
-      {currentForm === "login" ? (
-        <Login onFormSwitch={toggleForm} />
-      ) : (
-        <Register onFormSwitch={toggleForm} />
-      )}
-    </div>
-    // <div>
-    //   <Aviator />
+    // <div className="App">
+    //   {currentForm === "login" ? (
+    //     <Login onFormSwitch={toggleForm} />
+    //   ) : (
+    //     <Register onFormSwitch={toggleForm} />
+    //   )}
     // </div>
+    <div>
+      <Aviator />
+    </div>
   );
 }
 
